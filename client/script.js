@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://multiplayer-ball.onrender.com");
 
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
